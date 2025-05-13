@@ -17,7 +17,7 @@ instructor: ["Craig Windell"] # boxed, comma-separated list of instructors' name
 helper: ["Jason Bell"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["training@qcif.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-humanitix: "/introduction-to-the-unix-shell-may-2025-nci"         # optional: alphanumeric key for Humanitix registration, e.g., "introduction-to-the-unix-shell-190623"
+humanitix: "introduction-to-the-unix-shell-may-2025-nci/tickets"         # optional: alphanumeric key for Humanitix registration, e.g., "introduction-to-the-unix-shell-190623"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
