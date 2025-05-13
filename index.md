@@ -62,20 +62,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-{% comment %}
-HUMANTIX
 
-This block includes the Humanitix registration widget if
-'humanitix' has been set in the header.  
-{% endcomment %}
-{% if page.humanitix %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-
-<iframe id="iframe-container" src="https://events.humanitix.com/{{page.humanitix}}/tickets" width="90%" height="600px" scrolling="auto" frameborder="0"></iframe>  
-
-
-{% endif %}
 
 
 <h2 id="general">General Information</h2>
